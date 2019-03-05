@@ -1,0 +1,12 @@
+#-----------------------------------------------------------
+# Vivado v2016.4 (64-bit)
+# SW Build 1756540 on Mon Jan 23 19:11:19 MST 2017
+# IP Build 1755317 on Mon Jan 23 20:30:07 MST 2017
+# Start of session at: Mon Feb 18 16:12:41 2019
+# Process ID: 3834
+# Current directory: /home/btech/cs1170347/cs1170347_cs1170350_lab6/cs1170347_cs1170350_lab6.runs/dist_mem_gen_0_synth_1
+# Command line: vivado -log dist_mem_gen_0.vds -product Vivado -mode batch -messageDb vivado.pb -notrace -source dist_mem_gen_0.tcl
+# Log file: /home/btech/cs1170347/cs1170347_cs1170350_lab6/cs1170347_cs1170350_lab6.runs/dist_mem_gen_0_synth_1/dist_mem_gen_0.vds
+# Journal file: /home/btech/cs1170347/cs1170347_cs1170350_lab6/cs1170347_cs1170350_lab6.runs/dist_mem_gen_0_synth_1/vivado.jou
+#-----------------------------------------------------------
+source dist_mem_gen_0.tcl -notrace

@@ -1,0 +1,79 @@
+Copyright 1986-2016 Xilinx, Inc. All Rights Reserved.
+--------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2016.4 (lin64) Build 1756540 Mon Jan 23 19:11:19 MST 2017
+| Date         : Mon Feb 18 16:17:29 2019
+| Host         : sabarmati running 64-bit Ubuntu 16.04.5 LTS
+| Command      : report_control_sets -verbose -file memoryInt_control_sets_placed.rpt
+| Design       : memoryInt
+| Device       : xc7a35t
+--------------------------------------------------------------------------------------
+
+Control Set Information
+
+Table of Contents
+-----------------
+1. Summary
+2. Flip-Flop Distribution
+3. Detailed Control Set Information
+
+1. Summary
+----------
+
++----------------------------------------------------------+-------+
+|                          Status                          | Count |
++----------------------------------------------------------+-------+
+| Number of unique control sets                            |    16 |
+| Unused register locations in slices containing registers |    79 |
++----------------------------------------------------------+-------+
+
+
+2. Flip-Flop Distribution
+-------------------------
+
++--------------+-----------------------+------------------------+-----------------+--------------+
+| Clock Enable | Synchronous Set/Reset | Asynchronous Set/Reset | Total Registers | Total Slices |
++--------------+-----------------------+------------------------+-----------------+--------------+
+| No           | No                    | No                     |               3 |            2 |
+| No           | No                    | Yes                    |               6 |            5 |
+| No           | Yes                   | No                     |              17 |            7 |
+| Yes          | No                    | No                     |              64 |           38 |
+| Yes          | No                    | Yes                    |              31 |           12 |
+| Yes          | Yes                   | No                     |               0 |            0 |
++--------------+-----------------------+------------------------+-----------------+--------------+
+
+
+3. Detailed Control Set Information
+-----------------------------------
+
++------------------------+----------------------------+-----------------------+------------------+----------------+
+|      Clock Signal      |        Enable Signal       |    Set/Reset Signal   | Slice Load Count | Bel Load Count |
++------------------------+----------------------------+-----------------------+------------------+----------------+
+|  debounceR/pc_reg[9]_P |                            | debounceR/pc_reg[9]_C |                1 |              1 |
+|  debounceR/pc_reg[8]_P |                            | debounceR/pc_reg[8]_C |                1 |              1 |
+|  debounceR/pc_reg[7]_P |                            | debounceR/pc_reg[7]_C |                1 |              1 |
+|  clk_IBUF_BUFG         |                            | debounceR/pc_reg[9]_C |                1 |              1 |
+|  clk_IBUF_BUFG         |                            | debounceR/pc_reg[8]_C |                1 |              1 |
+|  clk_IBUF_BUFG         |                            | debounceR/pc_reg[7]_C |                1 |              1 |
+|  clk_IBUF_BUFG         | CPU_D/pc[31]_i_1_n_0       | debounceR/pc_reg[9]_P |                1 |              1 |
+|  clk_IBUF_BUFG         | CPU_D/pc[31]_i_1_n_0       | debounceR/pc_reg[8]_P |                1 |              1 |
+|  clk_IBUF_BUFG         | CPU_D/pc[31]_i_1_n_0       | debounceR/pc_reg[7]_P |                1 |              1 |
+|  clk_IBUF_BUFG         |                            | debounceR/resetD      |                2 |              3 |
+|  freq_div/out[0]       |                            |                       |                2 |              3 |
+|  clk_IBUF_BUFG         |                            | freq_div/clear        |                4 |             14 |
+|  clk_IBUF_BUFG         | CPU_D/pc[31]_i_1_n_0       | debounceR/resetD      |                9 |             28 |
+|  clk_IBUF_BUFG         | debounceR/RF_reg[1][31][0] |                       |               20 |             32 |
+|  clk_IBUF_BUFG         | debounceR/RF_reg[0][31][0] |                       |               18 |             32 |
+|  clk_IBUF_BUFG         |                            |                       |               32 |            128 |
++------------------------+----------------------------+-----------------------+------------------+----------------+
+
+
++--------+-----------------------+
+| Fanout | Number of ControlSets |
++--------+-----------------------+
+| 1      |                     9 |
+| 3      |                     2 |
+| 14     |                     1 |
+| 16+    |                     4 |
++--------+-----------------------+
+
+

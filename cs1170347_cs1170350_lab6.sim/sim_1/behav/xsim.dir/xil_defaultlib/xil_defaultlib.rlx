@@ -1,0 +1,11 @@
+0.6
+2016.4
+Jan 23 2017
+19:19:20
+/home/btech/cs1170347/cs1170347_cs1170350_lab6/cs1170347_cs1170350_lab6.sim/sim_1/behav/glbl.v,1485222234,verilog,,,,glbl,,,,,,,,
+/home/btech/cs1170347/cs1170347_cs1170350_lab6/cs1170347_cs1170350_lab6.srcs/sources_1/imports/new/CPU_design.vhd,1549878733,vhdl,,,,cpu_design,,,,,,,,
+/home/btech/cs1170347/cs1170347_cs1170350_lab6/cs1170347_cs1170350_lab6.srcs/sources_1/imports/new/memoryInt.vhd,1550483388,vhdl,,,,memoryint,,,,,,,,
+/home/btech/cs1170347/cs1170347_cs1170350_lab6/cs1170347_cs1170350_lab6.srcs/sources_1/ip/dist_mem_gen_0/sim/dist_mem_gen_0.v,1550485795,verilog,,,,dist_mem_gen_0,,,,,,,,
+/home/btech/cs1170347/cs1170347_cs1170350_lab6/cs1170347_cs1170350_lab6.srcs/sources_1/ip/dist_mem_gen_1/sim/dist_mem_gen_1.v,1549878555,verilog,,,,dist_mem_gen_1,,,,,,,,
+/home/btech/cs1170347/cs1170347_cs1170350_lab6/cs1170347_cs1170350_lab6.srcs/sources_1/new/debounce.vhd,1550482171,vhdl,/home/btech/cs1170347/cs1170347_cs1170350_lab6/cs1170347_cs1170350_lab6.srcs/sources_1/imports/new/memoryInt.vhd,,,debounce,,,,,,,,
+/home/btech/cs1170347/cs1170347_cs1170350_lab6/cs1170347_cs1170350_lab6.srcs/sources_1/new/freq_div_2_14.vhd,1550482112,vhdl,/home/btech/cs1170347/cs1170347_cs1170350_lab6/cs1170347_cs1170350_lab6.srcs/sources_1/imports/new/memoryInt.vhd,,,freq_div_2_14,,,,,,,,
